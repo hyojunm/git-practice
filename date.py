@@ -10,5 +10,5 @@ print(message)
 
 
 clock = time.localtime()
-current_time = time.strftime("%H:%M:%S", t)
+current_time = time.strftime("%H:%M:%S", clock)
 print(current_time)
